@@ -29,6 +29,7 @@ function App() {
 
   return (
     <>
+    <h1>React Pagination</h1>
       <label htmlFor="">
         ProductsPerPage:{" "}
         <select name="" id="" onChange={(e)=>{setProductsPerPage(e.target.value)}}>
